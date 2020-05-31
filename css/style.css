@@ -879,6 +879,11 @@ body.lock {
   padding: 0 20px;
   position: relative;
 }
+.slider-quotes__image{
+  @media (max-width: 479px) {
+    max-height: 135px;
+  }
+}
 
 .slider-quotes__image img {
   max-width: 100%;
